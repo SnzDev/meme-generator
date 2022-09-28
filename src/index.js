@@ -4,10 +4,9 @@ import memeMaker from "@erickwendel/meme-maker";
 const options = {
   image: "./img/sorry.jpg",
   outfile: './img/spiderman-meme.jpg',
-  topText: 'TODAY IM',
-  bottomText: 'AN ASS',
+  topText: 'DESCULPA TIO BEN',
+  bottomText: 'LIVE-RELOAD NÃO RODOU!',
 }
-
 
 memeMaker(options).then(_ => {
   console.log('Image saved: ' + options.outfile);

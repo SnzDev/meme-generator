@@ -1,21 +1,21 @@
 {
-    "name": "meme-generator",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "type": "module",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "node src/index.js",
-        "live-reload": "npx nodemon src/index.js"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-        "@erickwendel/meme-maker": "^2.3.1"
-    },
-    "devDependencies": {
-        "nodemon": "^2.0.20"
-    }
+  "name": "meme-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "live-reload": "npx nodemon src/index.js -L"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@erickwendel/meme-maker": "^2.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
 }
