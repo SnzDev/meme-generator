@@ -4,7 +4,7 @@ services:
     image: meme-generator
     build: .
     volumes:
-      -:/meme-generator
-      -node_modules:/meme-generator/node_modules
+      - .:/meme-generator
+      - node_modules:/meme-generator/node_modules
 volumes:
   node_modules: {}
