@@ -1,0 +1,10 @@
+version: '2.1'
+services:
+  meme-generator:
+    image: meme-generator
+    build: .
+    volumes:
+      -:/meme-generator
+      -node_modules:/meme-generator/node_modules
+volumes:
+  node_modules: {}
